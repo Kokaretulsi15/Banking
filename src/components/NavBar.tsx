@@ -1,7 +1,7 @@
 const NavBar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-info">
+      <nav className="navbar navbar-expand-lg bg-info text-dark">
         <div className="container-fluid">
           <a className="navbar-brand text-light" href="#">
             Logo
@@ -28,11 +28,47 @@ const NavBar = () => {
                   About Us
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link text-light" href="#">
+
+              {/* Dropdown - Personal Banking */}
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle text-light"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Personal Banking
                 </a>
+                <ul className="dropdown-menu">
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Account Opening & Transaction History
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Cards
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Loans
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Investments & Deposits
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Life Stage Solutions
+                    </a>
+                  </li>
+                </ul>
               </li>
+
               <li className="nav-item">
                 <a className="nav-link text-light" href="#">
                   Corporate Banking

@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Optional: hides horizontal scroll */
+  }
+.about-header {
+    font-size: 2rem; /* Or use 48px */
+    font-weight: 500;
+    color: #1d4ed8; /* Tailwind's blue-700 */
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-bottom: 4px solid #1d4ed8;
+    background-color: #f0f8ff; /* Light background */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+.para{
+    color: black;
+    line-height: 1.6;
+   
+}
+
+.image {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  
+.about-container {
+    border: 4px solid #d1d5db; /* Light gray border */
+    border-radius: 12px;        /* Rounded corners */
+    padding: 1rem 1rem 1rem 2rem;
+    background-color:white  
+    text-align:justify;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .about-container h2 {
+    color: #1d4ed8; /* Tailwind's blue-600 */
+  }
+  @media (max-width: 768px) {
+    .image {
+      width: 90%;
+    }
+  }
+  
