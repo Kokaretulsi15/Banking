@@ -9,11 +9,8 @@ const AboutUs: React.FC = () => {
 
           {/* Introduction */}
 
-          <div className="mb-6 text-center">
-            <img
-              src="/img/Bank.png"
-              className="w-3/4 max-w-full h-auto inline-block"
-            />
+          <div className="image text-center">
+            <img src="/img/Bank1.png" />
           </div>
 
           <p className="text-lg mb-6 para ">
@@ -50,12 +47,12 @@ const AboutUs: React.FC = () => {
             <h2 className="text-2xl font-semibold text-blue-600 mb-4">
               Our Core Values
             </h2>
-            <ul className="list-disc list-inside space-y-1">
-              <li>Trust & Transparency</li>
-              <li>Customer First</li>
-              <li>Innovation & Growth</li>
-              <li>Security & Compliance</li>
-              <li>Integrity in All We Do</li>
+            <ul>
+              <p>Trust & Transparency</p>
+              <p>Customer First</p>
+              <p>Innovation & Growth</p>
+              <p>Security & Compliance</p>
+              <p>Integrity in All We Do</p>
             </ul>
           </div>
 
@@ -64,12 +61,12 @@ const AboutUs: React.FC = () => {
             <h2 className="text-2xl font-semibold text-blue-600 mb-4">
               What Makes Us Different
             </h2>
-            <ul className="list-disc list-inside space-y-1">
-              <li>100% Digital Onboarding</li>
-              <li>Zero Balance Accounts</li>
-              <li>24/7 Smart Customer Support</li>
-              <li>AI-powered Personal Finance Tools</li>
-              <li>Low-interest Loans & Instant Approvals</li>
+            <ul>
+              <p>100% Digital Onboarding</p>
+              <p>Zero Balance Accounts</p>
+              <p>24/7 Smart Customer Support</p>
+              <p>AI-powered Personal Finance Tools</p>
+              <p>Low-interest Loans & Instant Approvals</p>
             </ul>
           </div>
 
